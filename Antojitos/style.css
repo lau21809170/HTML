@@ -1,0 +1,48 @@
+
+.block {
+background-image: url("bc.jpg");
+background-repeat: no-repeat;
+background-size: auto auto;
+text-align: center;
+color: #350f7c;
+margin: 10px;
+padding: 10px;
+height: 400px;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 700px 700px;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 1em;
+    
+}
+
+.areaA {
+    background-color:#FFD5F7;
+    border-radius: 25px;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+
+}
+.areaB{
+    background-color: #FFD5F7;
+    border-radius: 25px;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+
+h1 {
+    font-size: 3em;
+}
+
+a {
+    font-size: 1.5em;
+}
