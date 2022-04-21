@@ -1,4 +1,8 @@
 
+/* This .block was originally created to be the 
+background image of my home page. It has a height of 300px but I wanted
+the image to cover the entire first page and be responsive. 
+This was replaced with the homeBGImage class */
 .block {
 background-image: url("bc.jpg");
 background-repeat: no-repeat;
@@ -7,14 +11,13 @@ text-align: center;
 color: #350f7c;
 margin: 10px;
 padding: 10px;
-height: 400px;
+height: 300px;
 }
 
 .grid-container {
     display: grid;
-    width: 100%;
-    grid-template-columns: 700px 700px;
-    gap: 50px;
+    grid-template-columns: 7fr 7fr;
+    gap: 30px;
     justify-content: center;
     padding-top: 1em;
     
@@ -27,6 +30,8 @@ height: 400px;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-right: 1em;
+    text-align: center;
+    vertical-align: middle;
 
 }
 .areaB{
@@ -36,13 +41,47 @@ height: 400px;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-right: 1em;
+    text-align: center;
 }
 
-
 h1 {
-    font-size: 3em;
+    font-size: 4em;
+    padding-bottom: 2rem;
 }
 
 a {
-    font-size: 1.5em;
+    font-size: 2em;
+}
+
+.frontPageImg {
+    height: 100px;
+    float:right;
+    padding: 10px 0px 10px 10px;
+}
+
+.modFrontPageImg {
+    height: 100px;
+    float: right;
+    padding: 20px 0px 20px 20px;
+    border-radius: 3rem;
+}
+
+.centerParagraph{
+    text-align: left;
+    padding: 0% 20% 0% 20% ;
+    font-size: 1.70em;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+.homeBGImage {
+background-image: url("bc.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+color: #350f7c;
 }
